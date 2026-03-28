@@ -7,8 +7,6 @@
 
 # Dependencies
 node_modules/
-dist/
-build/
 
 # Debug logs
 npm-debug.log*
