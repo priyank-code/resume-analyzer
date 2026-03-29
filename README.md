@@ -99,11 +99,11 @@ Create a `.env` file inside the **backend** folder and add:
 
 #### Start Backend
 
-    npm run dev
+    npm start
 
 #### Start Frontend
 
-    npm start
+    npm run dev
 
 ---
 
@@ -121,7 +121,9 @@ Create a `.env` file inside the **backend** folder and add:
     ├── client/
     │   ├── components/
     │   ├── pages/
-    │   ├── redux/
+    │   ├── features/
+    |   ├── context/
+    |   ├── services/
     │   └── App.js
     │
     └── README.md
