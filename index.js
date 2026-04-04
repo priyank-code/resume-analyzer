@@ -25,6 +25,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(morgan("dev"));
 
+app.get("/ping", (req, res) => {
+  res.status(200).send("Server alive");
+});
+
 // API Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/resume", resumeRoutes);
